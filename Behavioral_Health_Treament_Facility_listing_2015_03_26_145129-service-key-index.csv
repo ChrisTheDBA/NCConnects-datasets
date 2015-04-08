@@ -1,0 +1,79 @@
+service_code,service_name,service_description,service_category,sa_code,mh_code,use_for_selection,both_code,category_code,category_name,sa_category,mh_category,both_category
+CIT,Crisis intervention team,,EMS,N,Y,Y,N,EMS,Emergency Mental Health Services,N,Y,N
+WI,Psychiatric emergency walk-in services,,EMS,N,Y,Y,N,EMS,Emergency Mental Health Services,N,Y,N
+MH,Mental health treatment services   ,,TC,N,Y,Y,N,TC,Type of Care,Y,Y,N
+SA,Substance treatment services  ,,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+DT,Detoxification  ,,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+MM,Methadone maintenance  ,,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+DM,Methadone detoxification  ,,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+BU,Buprenorphine used in treatment,,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+NXN,Naltrexone (oral),,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+VTRL,Vivitrol® (injectable Naltrexone),,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+HH,Transitional housing or halfway house,,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+OTPA,All Clients in Opioid Treatment Program,,TC,Y,N,Y,N,TC,Type of Care,Y,Y,N
+OP,Outpatient ,,SET,Y,Y,Y,Y,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+PH,Partial hospitalization/day treatment,,SET,Y,Y,Y,Y,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+HI,Hospital inpatient ,,SET,Y,Y,Y,Y,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+RES,Residential,,SET,Y,N,N,Y,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+RS,Short-term residential,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+RL,Long-term residential,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+RD,Residential Detoxification,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+OD,Outpatient Detoxification,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+OMB,Outpatient methadone/Buprenorphine or Vivitrol®,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+ODT,Outpatient Day Treatment or Partial Hospitalization,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+OIT,Intensive Outpatient treatment,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+ORT,Regular Outpatient treatment,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+HID,Hospital Inpatient Detoxification,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+HIT,Hospital Inpatient Treatment,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+RTCC,Residential treatment center (RTC) for children ,,SET,N,Y,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+RTCA,Residential treatment center (RTC) for adults ,,SET,N,Y,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+ORES,Other residential services (excluding RTCs),,SET,N,Y,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+MSNH,"Multi-setting mental health facility (e.g., residential and outpatient) ",,SET,N,Y,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+CT,Computerized treatment,,SET,Y,N,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+TELE,Telemedicine therapy,,SET,N,Y,Y,N,SET,"Service Setting (e.g., Outpatient, Residential, etc.)",Y,Y,Y
+PVT,Private (for-profit/non-profit) organization ,,FOP,N,Y,Y,N,FOP,"Facility Operation (e.g. Private, Public)",Y,Y,Y
+PUB,Public/government organization,,FOP,N,Y,Y,N,FOP,"Facility Operation (e.g. Private, Public)",Y,Y,Y
+VAMC,U.S. Department of Veterans Affairs,,FOP,Y,Y,Y,Y,FOP,"Facility Operation (e.g. Private, Public)",Y,Y,Y
+NP,No Payment Accepted,,PAY,Y,Y,Y,Y,PAY,Payment/Insurance Accepted,Y,Y,Y
+SF,Cash or self-payment,,PAY,Y,Y,Y,Y,PAY,Payment/Insurance Accepted,Y,Y,Y
+MD,Medicaid,,PAY,Y,Y,Y,Y,PAY,Payment/Insurance Accepted,Y,Y,Y
+MC,Medicare,,PAY,Y,Y,Y,Y,PAY,Payment/Insurance Accepted,Y,Y,Y
+SI,State financed health insurance plan other than Medicaid,,PAY,Y,Y,Y,Y,PAY,Payment/Insurance Accepted,Y,Y,Y
+PI,Private health insurance,,PAY,Y,Y,Y,Y,PAY,Payment/Insurance Accepted,Y,Y,Y
+MI,"Military insurance (e.g., TRICARE or CHAMPVA)",,PAY,Y,Y,Y,Y,PAY,Payment/Insurance Accepted,Y,Y,Y
+IHS,IHS/638 contract care funds,,PAY,Y,Y,Y,Y,PAY,Payment/Insurance Accepted,Y,Y,Y
+ATR,Access to Recovery (ATR) voucher,,PAY,Y,N,Y,N,PAY,Payment/Insurance Accepted,Y,Y,Y
+SS,Sliding fee scale (fee is based on income and other factors),,PYAS,Y,Y,Y,Y,PYAS,Payment Assistance Available,Y,Y,Y
+PA,Payment assistance (check with facility for details),,PYAS,Y,Y,Y,Y,PYAS,Payment Assistance Available,Y,Y,Y
+AH,Services for the hearing-impaired,,SL,Y,Y,Y,Y,SL,Language Services,Y,Y,Y
+SP,Spanish,,SL,Y,Y,Y,Y,SL,Language Services,Y,Y,Y
+NX,American Indian or Alaska Native languages,,SL,Y,Y,Y,Y,SL,Language Services,Y,Y,Y
+FX,Other languages,,SL,Y,Y,Y,Y,SL,Language Services,Y,Y,Y
+CO,Persons with co-occurring mental and substance abuse disorders,,SG,Y,Y,Y,Y,SG,Special Programs/Groups Offered,Y,Y,Y
+GL,"Lesbian, gay, bisexual, or transgender (LGBT) clients",,SG,Y,Y,Y,Y,SG,Special Programs/Groups Offered,Y,Y,Y
+VET,Veterans,,SG,Y,Y,Y,Y,SG,Special Programs/Groups Offered,Y,Y,Y
+ADM,Active duty military,,SG,Y,Y,Y,Y,SG,Special Programs/Groups Offered,Y,Y,Y
+MF,Military families,,SG,Y,Y,Y,Y,SG,Special Programs/Groups Offered,Y,Y,Y
+CJ,Clients referred from the court/judicial system (other than DUI/DWI),,SG,Y,Y,Y,Y,SG,Special Programs/Groups Offered,Y,Y,Y
+SE,Seniors or older adults,,SG,Y,Y,Y,Y,SG,Special Programs/Groups Offered,Y,Y,Y
+AD,Adolescents,,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+PW,Pregnant/postpartum women,,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+WN,Adult women,,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+MN,Adult men,,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+HV,Persons with HIV or AIDS,,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+TRMA,Persons who have experienced trauma,,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+BC,Residential beds for client's children,,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+XA,Persons who have experienced sexual abuse,,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+DV,"Persons who have experienced intimate partener violence, domestic Violence",,SG,Y,N,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+SED,Children with serious emotional disturbance (SED),,SG,N,Y,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+SMI,Adults with serious mental illness (SMI),,SG,N,Y,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+ALZ,Persons with Alzheimer's or dementia,,SG,N,Y,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+PTSD,Persons with post-traumatic stress disorder (PTSD),,SG,N,Y,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+TBI,Persons with traumatic brain injury (TBI),,SG,N,Y,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+PEER,Consumer-run (peer-support) services  ,,SG,N,Y,Y,N,SG,Special Programs/Groups Offered,Y,Y,Y
+CHLD,Children/adolescents,,AGE,Y,Y,Y,Y,AGE,Age Groups Accepted,Y,Y,Y
+YAD,Young adults ,,AGE,Y,Y,Y,Y,AGE,Age Groups Accepted,Y,Y,Y
+ADLT,Adults,,AGE,Y,Y,Y,Y,AGE,Age Groups Accepted,Y,Y,Y
+BMO,Methadone and buprenorphine clients only,,EXCL,Y,N,N,N,EXCL,Exclusive Services,N,N,N
+MO,Methadone clients only,,EXCL,Y,N,N,N,EXCL,Exclusive Services,N,N,N
+DU,DUI/DWI clients only,,EXCL,Y,N,N,N,EXCL,Exclusive Services,N,N,N
